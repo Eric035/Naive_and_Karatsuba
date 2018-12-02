@@ -10,8 +10,6 @@ public class Multiply{
     }
     
     public static int[] naive(int size, int x, int y) {
-
-        // YOUR CODE GOES HERE  (Note: Change return statement)
         
         int naiveResult[] = new int[2];                  // Array to return.
         
@@ -44,8 +42,6 @@ public class Multiply{
 
     public static int[] karatsuba(int size, int x, int y) {
         
-        // YOUR CODE GOES HERE  (Note: Change return statement)
-
         int kresult[] = new int[2];                     // Our output array
 
         if (size == 1)                                  // Base case
